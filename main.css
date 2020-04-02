@@ -154,6 +154,12 @@ div {
     margin-top: 3px;
 }
 
+@media screen and (max-width : 325px) {
+    .renews p {
+        margin-bottom: 3px;
+    }
+}
+
 .footer .top {
     display: flex;
     justify-content: space-around;
