@@ -70,9 +70,9 @@ p {
     }
 }
 
-@media screen and (max-width : 320px) {
+@media screen and (max-width : 325px) {
     .header {
-        padding-top: 5%
+        padding-top: 0% !important;
     }
 }
 
@@ -153,19 +153,15 @@ p {
     margin-top: 3px;
 }
 
-.top {
+.footer .top {
     display: flex;
     justify-content: space-around;
     font-size: 13px;
     text-decoration: underline;
 }
 
-.bottom {
+.footer .bottom {
     font-size: 13px;
     text-align: center;
     font-weight: normal;
-}
-
-.footer p {
-    color: #fff;
 }
