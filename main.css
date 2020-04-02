@@ -55,8 +55,7 @@ p {
 }
 
 @media screen and (max-width : 375px) {
-    .header {
-    }
+    .header {}
 
     h1 {
         margin-bottom: 0px;
@@ -85,7 +84,7 @@ p {
 }
 
 .plan button {
-    width: 165px;
+    width: 45%;
     height: 96px;
     font-size: 22px;
     line-height: 5px;
@@ -93,7 +92,6 @@ p {
     border: 2px solid #fff;
     background-color: transparent;
     font-family: 'Fira Sans', sans-serif;
-
 }
 
 .plan button.pink {
@@ -105,8 +103,13 @@ p {
     font-size: 13px;
 }
 
+.subscription {
+    display: flex;
+    justify-content: center;
+}
+
 .begin {
-    width: 100%;
+    width: 95%;
     height: 76px;
     margin-top: 20px;
     border-radius: 14px;
@@ -115,11 +118,8 @@ p {
     background-color: #4BE799;
     font-size: 21px;
     font-weight: bold;
-    animation: pulse 1.5s infinite;
-
-
     font-family: "Apple SD Gothic Neo";
-
+    animation: pulse 1.5s infinite;
 }
 
 @keyframes pulse {
@@ -131,7 +131,6 @@ p {
         box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
     }
 }
-
 
 .renews {
     text-align: center;
@@ -149,7 +148,6 @@ p {
     text-decoration: underline;
 }
 
-
 .bottom {
     font-size: 13px;
     text-align: center;
@@ -159,9 +157,3 @@ p {
 .footer p {
     color: #fff;
 }
-
-@media screen and (max-width : 812px) {}
-
-
-
-@media screen and (max-width : 375px) {}
