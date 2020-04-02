@@ -9,13 +9,24 @@ body {
     height: 100vh;
 }
 
-.container {
-    width: 350px;
-    margin: 0 auto;
+a,
+p,
+ul,
+li,
+div {
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+    text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
 }
 
 p {
     color: #fff;
+}
+
+@media screen and (min-width : 812px) {
+    .container {
+        max-width: 400px;
+    }
 }
 
 #cross {
@@ -31,7 +42,6 @@ p {
     margin-left: 12px;
     background-color: #fff;
     transform: rotate(45deg);
-    Z-index: 1;
 }
 
 .beam {
@@ -60,7 +70,7 @@ p {
     }
 }
 
-.photo {
+.background {
     width: auto;
     background-image: url("hair1.jpg");
     background-repeat: no-repeat, repeat;
@@ -71,7 +81,7 @@ p {
     display: flex;
     justify-content: center;
     font-size: 17px;
-    list-style-image: url('star.png');
+    list-style: square url('star.png');
     font-family: 'Lato', sans-serif;
 }
 
