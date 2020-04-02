@@ -70,6 +70,12 @@ p {
     }
 }
 
+@media screen and (max-width : 320px) {
+    .header {
+        padding-top: 5%
+    }
+}
+
 .background {
     width: auto;
     background-image: url("hair1.jpg");
